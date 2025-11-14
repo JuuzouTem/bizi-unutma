@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protokol: Esin Ablam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- GİRİŞ EKRANI -->
+    <div id="splash-screen">
+        <div id="splash-text"></div>
+        <button id="enter-wired-btn">WIRED'a GİR</button>
+    </div>
+
+    <!-- ANA İÇERİK -->
+    <div id="main-content">
+        <header>
+            <h1>&gt; To Esin Ablam<span class="blinking-cursor">_</span></h1>
+        </header>
+
+        <main>
+            <!-- KİŞİSEL MESAJ BÖLÜMÜ -->
+            <section id="letter-section">
+                <h2>&gt; connection_established.txt</h2>
+                <p id="letter-text"></p>
+            </section>
+
+            <!-- LAIN KAVGASI BÖLÜMÜ -->
+            <section id="lain-section">
+                <h2>&gt; // LAIN KAVGASI ARŞİVİ</h2>
+                <h3 class="glitch" data-text="LAIN BENİM.">LAIN BENİM.</h3>
+                <p>(ağlayabilirsin.)</p>
+                <p>Ve kimsenin anlamadığını düşünsen bile unutma: "We're all connected."</p>
+            </section>
+
+            <!-- GALERİ BÖLÜMÜ -->
+            <section id="gallery-section">
+                <h2>&gt; paylasimlar/bizim_kesfet</h2>
+                <p class="section-subtitle">// Random Bullshit Go //</p>
+                <div class="image-gallery">
+
+                    <figure>
+                        <img src="kizil-panda.png" alt="Kızıl Panda">
+                        <figcaption>"kizil pandalar gercekten ben bu arada"</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="among-us.png" alt="Among Us">
+                        <figcaption>Bir Among Us lobisi kadar yakınız.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="shitpost.png" alt="Shitpost">
+                        <figcaption>Ben bunu açıklayamam.</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- MÜZİK BÖLÜMÜ -->
+            <section id="playlist-section">
+                <h2>&gt; a_playlist_has_been_integrated.mp3</h2>
+                <p>Bizi unutma diye bir playlist (çok aceleye geldi kusura bakma..)</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2N63SeiDJ4bslGijinhUxc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section> 
+            <!-- GERİ SAYIM BÖLÜMÜ -->
+            <section id="countdown-section">
+                <h2>&gt; ping esin_ablam.exe</h2>
+                <p>Bir sonraki online oyun seansına veya deep talk'a kalan süre:</p>
+                <div id="countdown">
+                    <div class="time-unit"><span id="days">00</span>Gün</div>
+                    <div class="time-unit"><span id="hours">00</span>Saat</div>
+                    <div class="time-unit"><span id="minutes">00</span>Dakika</div>
+                    <div class="time-unit"><span id="seconds">00</span>Saniye</div>
+                </div>
+                 <p class="project-link">Bu arada <a href="https://juuzoutem.github.io/Project-Chronos-Genesis/Project%20Chronos%20Genesis/Chronos_Genesis_%CE%A9.html" target="_blank">Project Chronos Genesis</a> hala puanlamanı bekliyor...</p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>© 2025 - Made with 💖 (and 900 errors, 50 crashes, 7 suicidal thoughts).</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
